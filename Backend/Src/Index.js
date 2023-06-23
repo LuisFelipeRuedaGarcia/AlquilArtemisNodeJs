@@ -1,0 +1,1 @@
+//the main structure of files and folders is created
