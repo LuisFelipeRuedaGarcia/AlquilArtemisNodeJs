@@ -1,0 +1,4 @@
+//install main dependencies
+cd Backend/;
+npm init -y;
+npm i express;
