@@ -4,3 +4,5 @@ npm init -y;
 npm i express;
 npm run Dev;
 npm i -D nodemon;
+npm i dotenv;
+npm i promise-mysql;
