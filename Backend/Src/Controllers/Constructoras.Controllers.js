@@ -1,5 +1,5 @@
 import getConnection from "../Db/Database.js"
-const getCosntructoras = async (req,res)=>{
+const getConstructoras = async (req,res)=>{
     const connection = await getConnection();
     const result = await connection.query("SELECT * from constructoras");
     console.log(result);
@@ -8,5 +8,5 @@ const getCosntructoras = async (req,res)=>{
 
 
 export const methodsHTTP = {
-    getCosntructoras /* : getCosntructoras */
+    getConstructoras /* : getCosntructoras */
 }
