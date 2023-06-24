@@ -2,3 +2,4 @@
 cd Backend/;
 npm init -y;
 npm i express;
+npm run Dev;
